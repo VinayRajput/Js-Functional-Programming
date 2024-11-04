@@ -14,7 +14,7 @@ return ()=>{} function declared, even createCounter returned
 
 const counter1 = createCounter();
 const counter2 = createCounter();
-cl('counter1')(counter1()); // 1 counter10); // 2
+cl('counter1')(counter1()); // 1 
 cl('counter2')(counter2()); // 1
 
 let capturedCount = counter1(); // 3
